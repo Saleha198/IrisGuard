@@ -8,7 +8,6 @@ IrisGuard: AI-Powered Robust Iris Biometric Authentication System
 Multi-Phase Presentation Attack Detection • Explainable AI • Open-Set Recognition • Generative AI • RAG Assistant • Flutter Deployment
 </p>
 
-
 <p align="center">
 <img src="assets/architecture.png" width="900">
 </p>
@@ -18,9 +17,9 @@ Multi-Phase Presentation Attack Detection • Explainable AI • Open-Set Recogn
 
 # 📌 Overview
 
-**IrisGuard** is a research-oriented AI-powered iris biometric authentication system designed to improve the security, robustness, and interpretability of biometric verification systems.
+**IrisGuard** is a research-oriented AI-powered iris biometric authentication framework designed to improve the security, robustness, and interpretability of biometric verification systems.
 
-The system combines:
+The system integrates:
 
 - Computer Vision
 - Deep Learning
@@ -29,79 +28,113 @@ The system combines:
 - Open-Set Identity Verification
 - Generative AI
 - Retrieval-Augmented Generation (RAG)
-- Flutter Mobile Application Deployment
+- Flutter-based Mobile Deployment
 
 
-The primary objective of IrisGuard is to develop a secure biometric framework capable of handling:
+The primary objective of IrisGuard is to develop a secure biometric framework capable of addressing:
 
-- Spoofing attacks
-- Unknown identities
+- Presentation attacks and spoofing attempts
+- Unknown identity rejection
 - Real-world environmental variations
-- Lack of transparency in AI decisions
+- Lack of transparency in AI-based decisions
 
 
 ---
 
-# 🎥 Demo Video
+# 🎥 Research Demonstration
 
 <p align="center">
 
 <a href="https://youtube.com/shorts/h_L3W5RJrps">
+
 <img src="https://img.youtube.com/vi/h_L3W5RJrps/0.jpg" width="700">
+
 </a>
 
 </p>
 
 
-Click the image above to watch the IrisGuard demonstration.
+The demonstration showcases the complete IrisGuard authentication workflow:
+
+- Iris acquisition
+- Deep learning based processing
+- Presentation Attack Detection
+- Explainable AI visualization
+- Identity verification
+- RAG-powered AI assistant
+- Flutter mobile interface
 
 
 ---
 
 # 🔬 Research Motivation
 
-Traditional biometric authentication systems face challenges such as:
+Traditional biometric authentication systems face several challenges:
 
 - Vulnerability to presentation attacks
 - Closed-set recognition limitations
-- Poor interpretability of deep learning models
-- Difficulty deploying research models into practical systems
+- Limited interpretability of deep learning models
+- Difficulty transitioning research models into practical applications
 
 
-IrisGuard addresses these limitations through a multi-stage AI security pipeline.
+IrisGuard addresses these challenges through a multi-layer AI security pipeline combining robustness, explainability, and deployment.
 
 
 ---
 
-# 🚀 System Architecture
+# 🚀 Research Contributions
+
+IrisGuard contributes a unified biometric security framework through:
+
+- Multi-phase Presentation Attack Detection for spoofing resistance
+- Open-set recognition for unknown identity rejection
+- Explainable AI integration for transparent predictions
+- Retrieval-Augmented Generation assistant for intelligent support
+- Flutter deployment for real-world mobile authentication
+
+
+The project bridges the gap between biometric research and practical AI deployment.
+
+
+---
+
+# 🏗️ System Architecture
 
 
 <p align="center">
+
 <img src="assets/architecture.png" width="900">
+
 </p>
 
 
-The complete authentication workflow consists of:
-
+The complete authentication pipeline:
 Input Iris Image
-|
-↓
+
+    ↓
+
 Iris Detection & Processing
-|
-↓
+
+    ↓
+
 Presentation Attack Detection
-|
-↓
+
+    ↓
+
 Explainable AI Analysis
-|
-↓
+
+    ↓
+
 Open-Set Identity Verification
-|
-↓
+
+    ↓
+
 Authentication Decision
-|
-↓
+
+    ↓
+
 AI Assistant Support
+
 
 
 ---
@@ -110,11 +143,13 @@ AI Assistant Support
 
 
 <p align="center">
+
 <img src="assets/Secuirty.jpeg" width="850">
+
 </p>
 
 
-IrisGuard follows a sequential security mechanism where every authentication request passes through multiple verification stages.
+Every authentication request passes through multiple security stages.
 
 
 ## Phase 1 — Iris Detection
@@ -124,7 +159,7 @@ The system identifies and processes iris information using deep learning based v
 
 ## Phase 2 — Presentation Attack Detection
 
-The system detects potential spoofing attempts including:
+The system detects possible spoofing attempts including:
 
 - Printed iris attacks
 - Replay attacks
@@ -133,10 +168,53 @@ The system detects potential spoofing attempts including:
 
 ## Phase 3 — Open-Set Identity Verification
 
-The system supports unknown user rejection by distinguishing between:
+The system distinguishes between:
 
 - Registered identities
-- Unregistered identities
+- Unknown/unregistered identities
+
+
+---
+
+# ⚙️ Methodology
+
+
+The IrisGuard framework follows a sequential AI authentication workflow:
+
+
+### 1. Image Acquisition
+
+Capture iris input from the user.
+
+
+### 2. Pre-processing
+
+Enhancement and normalization of iris images.
+
+
+### 3. Feature Extraction
+
+Deep learning models extract discriminative iris features.
+
+
+### 4. Presentation Attack Detection
+
+A security layer analyzes whether the input is genuine or spoofed.
+
+
+### 5. Explainable AI
+
+Grad-CAM based visualization provides insight into model decisions.
+
+
+### 6. Open-Set Recognition
+
+Unknown identities are rejected instead of forcing incorrect classification.
+
+
+### 7. Authentication Decision
+
+Final verification decision is generated.
 
 
 ---
@@ -145,11 +223,13 @@ The system supports unknown user rejection by distinguishing between:
 
 
 <p align="center">
+
 <img src="assets/iris_registration.jpg" width="650">
+
 </p>
 
 
-The enrollment module securely registers user iris information for future authentication.
+The enrollment module securely registers iris information for future authentication.
 
 
 ---
@@ -158,11 +238,13 @@ The enrollment module securely registers user iris information for future authen
 
 
 <p align="center">
+
 <img src="assets/processing_step.jpeg" width="750">
+
 </p>
 
 
-Processing stages include:
+Processing stages:
 
 - Image acquisition
 - Pre-processing
@@ -177,11 +259,13 @@ Processing stages include:
 
 
 <p align="center">
+
 <img src="assets/liveliness_detection.jpg" width="700">
+
 </p>
 
 
-The system performs liveness analysis to improve resistance against biometric spoofing attempts.
+The system performs liveness analysis to improve resistance against biometric spoofing.
 
 
 ---
@@ -191,15 +275,13 @@ The system performs liveness analysis to improve resistance against biometric sp
 
 IrisGuard integrates Explainable AI techniques to improve model transparency.
 
-The system provides interpretable AI decisions by highlighting important visual regions responsible for predictions.
 
+The system provides:
 
-Benefits:
-
-- Trustworthy AI decisions
-- Better model understanding
-- Improved debugging
-- Human-interpretable predictions
+- Visual explanation of predictions
+- Important feature localization
+- Improved model debugging
+- Human-interpretable decisions
 
 
 ---
@@ -208,17 +290,17 @@ Benefits:
 
 
 <p align="center">
+
 <img src="assets/AI_Chatbot.jpeg" width="650">
+
 </p>
 
 
-IrisGuard integrates a Retrieval-Augmented Generation assistant to provide intelligent and context-aware support.
-
-Capabilities:
+The integrated Retrieval-Augmented Generation assistant provides:
 
 - Knowledge-grounded responses
-- User assistance
 - System explanation
+- User assistance
 - Interactive AI support
 
 
@@ -229,39 +311,46 @@ Capabilities:
 
 ## Login Interface
 
-
 <p align="center">
+
 <img src="assets/login.jpg" width="350">
+
 </p>
 
-
----
 
 ## Authentication Workflow
 
-
 <p align="center">
+
 <img src="assets/login pipeline-step 1.jpg" width="750">
+
 </p>
 
-
----
 
 ## Iris Scanning Interface
 
-
 <p align="center">
+
 <img src="assets/iris_scan.jpg" width="450">
+
 </p>
 
 
----
+## Authentication Result
+
+<p align="center">
+
+<img src="assets/detection_result.png" width="650">
+
+</p>
+
 
 ## Request Approval
 
-
 <p align="center">
+
 <img src="assets/request_approval.jpg" width="600">
+
 </p>
 
 
@@ -272,18 +361,28 @@ Capabilities:
 
 ## Admin Dashboard
 
-
 <p align="center">
+
 <img src="assets/admin.jpg" width="750">
+
 </p>
 
 
-The dashboard enables:
+## User Dashboard
+
+<p align="center">
+
+<img src="assets/user_dashboard.png" width="750">
+
+</p>
+
+
+The dashboard provides:
 
 - User management
 - Authentication monitoring
-- System analytics
 - Security tracking
+- System analytics
 
 
 ---
@@ -293,17 +392,19 @@ The dashboard enables:
 
 ## ROC Curve
 
-
 <p align="center">
+
 <img src="assets/roc_curve.png" width="650">
+
 </p>
 
 
 ## FAR-FRR Analysis
 
-
 <p align="center">
+
 <img src="assets/far_frr_curve.png" width="650">
+
 </p>
 
 
@@ -312,10 +413,20 @@ The dashboard enables:
 
 | Metric | Result |
 |---|---|
-| Iris Detection Accuracy | 99.94% |
-| Presentation Attack Detection EER | 3.25% |
-| Open-Set Verification AUC | 0.9974 |
-| GPU Inference Time | 0.15 sec |
+| Iris Detection Accuracy | **99.94%** |
+| Presentation Attack Detection EER | **3.25%** |
+| Open-Set Verification AUC | **0.9974** |
+| GPU Inference Time | **0.15 sec** |
+
+
+<p align="center">
+
+<img src="assets/performance_table.png" width="700">
+
+</p>
+
+
+Performance metrics are based on internal experimental evaluation. Detailed dataset information and methodology will be provided in the research manuscript.
 
 
 ---
@@ -369,16 +480,21 @@ The dashboard enables:
 
 ## Manuscript in Preparation
 
-The research manuscript is currently under preparation by the research team.
 
-Project Title:
+**Research Project Title**
 
 **IrisGuard: A Robust Flutter-Based Biometric Authentication System with Multi-Phase PAD, Explainable AI, Open-Set Recognition, and RAG-Powered Assistant**
+
+
+The manuscript is currently under preparation by the research team.
+
+
+---
 
 # 🔒 Code Availability
 
 
-The source code is currently private because this project is part of an ongoing research study and manuscript preparation.
+The implementation is currently private because this project is part of an ongoing research study and manuscript preparation.
 
 
 This repository contains:
@@ -390,15 +506,13 @@ This repository contains:
 ✅ Demonstration materials  
 
 
-The implementation will be released after publication or with appropriate approval.
+The complete implementation will be released after publication or with appropriate approval.
 
 
 ---
 
-# 🔮 Future Work
+# 🔮 Future Research Directions
 
-
-Future research directions:
 
 - Large-scale cross-dataset evaluation
 - Lightweight edge AI deployment
@@ -411,11 +525,13 @@ Future research directions:
 
 # 👩‍💻 Research Team
 
+
 ## Authors
 
 - Saleha Arshad
 - Omama Sajid
 - Seerat-e-Marryum
+
 
 Computer Science Undergraduate Researchers  
 PAF-IAST
@@ -446,5 +562,7 @@ https://linkedin.com/in/saleha-arshad-08154726a
 ---
 
 <p align="center">
+
 ⭐ Building AI systems that are secure, interpretable, and impactful.
+
 </p>
