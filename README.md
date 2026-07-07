@@ -144,7 +144,7 @@ AI Assistant Support
 
 <p align="center">
 
-<img src="assets/Secuirty.png" width="850">
+<img src="assets/Security.png" width="850">
 
 </p>
 
