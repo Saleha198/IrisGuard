@@ -72,6 +72,16 @@ The demonstration showcases the complete IrisGuard authentication workflow:
 
 ---
 
+# 📚 Project Resources
+
+- 📄 **Research Overview:** `docs/IrisGuard_PrePublication_Research_Overview.pdf`
+- 🎥 **Research Demonstration:** https://youtube.com/shorts/h_L3W5RJrps
+- 🏗️ **System Architecture:** `assets/architecture.png`
+- 📊 **Experimental Results:** Included in this repository
+
+
+
+
 # 🔬 Research Motivation
 
 Traditional biometric authentication systems face several challenges:
