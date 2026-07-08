@@ -41,6 +41,11 @@ The primary objective of IrisGuard is to develop a secure biometric framework ca
 
 ---
 
+> **Research Notice**
+>
+> This repository presents a high-level overview of the IrisGuard research project. Detailed methodologies, implementation code, training procedures, datasets, and model weights are intentionally withheld while the accompanying research manuscript is under preparation.
+
+
 # 🎥 Research Demonstration
 
 <p align="center">
