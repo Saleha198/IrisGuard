@@ -538,6 +538,20 @@ The complete implementation will be released after publication or with appropria
 
 ---
 
+# 📖 Citation
+
+If you find this project useful, please cite:
+
+```bibtex
+@misc{irisguard2026,
+  title={IrisGuard: AI-Powered Robust Iris Biometric Authentication System},
+  author={Saleha Arshad and Omama Sajid and Seerat-e-Marryum},
+  year={2026},
+  note={Research manuscript in preparation}
+}
+```
+
+
 # 👩‍💻 Research Team
 
 
